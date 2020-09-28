@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="65f99c99-48b5-4fc1-92c4-062aa83ec55f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tsg123@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tsg123@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tsg123@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tsg123: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - tsg123@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tsg123: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="books_memberstate: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fMMucWGvO4qrUJiyfszTgH8pil" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\tsg123" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\tsg123\utils" />
+      <recent name="D:\workspace\tsg123\templates" />
+      <recent name="D:\workspace\tsg123\static" />
+      <recent name="D:\workspace\tsg123" />
+      <recent name="D:\tsg123\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.tsg123">
+    <configuration name="import_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tsg123" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/import_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tsg123" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tsg123" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\tsg123\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tsg123" type="Python.DjangoServer" factoryName="Django server">
+      <module name="tsg123" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="tsg123.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.import_data" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.12118714" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65f99c99-48b5-4fc1-92c4-062aa83ec55f" name="Default Changelist" comment="" />
+      <created>1596023731338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596023731338</updated>
+      <workItem from="1596023735378" duration="1341000" />
+      <workItem from="1596073568380" duration="344000" />
+      <workItem from="1596181434667" duration="7516000" />
+      <workItem from="1596189301921" duration="7407000" />
+      <workItem from="1596245318732" duration="10521000" />
+      <workItem from="1596265121059" duration="13724000" />
+      <workItem from="1596329575837" duration="9874000" />
+      <workItem from="1596352620186" duration="16996000" />
+      <workItem from="1596416462995" duration="9027000" />
+      <workItem from="1596439912928" duration="15923000" />
+      <workItem from="1596504625475" duration="8526000" />
+      <workItem from="1596526033057" duration="16785000" />
+      <workItem from="1596592471097" duration="8728000" />
+      <workItem from="1596611016360" duration="17883000" />
+      <workItem from="1596677064346" duration="10782000" />
+      <workItem from="1596698678733" duration="16987000" />
+      <workItem from="1596762724885" duration="12069000" />
+      <workItem from="1596783671596" duration="18595000" />
+      <workItem from="1596849997804" duration="8442000" />
+      <workItem from="1596870510628" duration="18380000" />
+      <workItem from="1597023015405" duration="4417000" />
+      <workItem from="1597043867229" duration="14017000" />
+      <workItem from="1597108653332" duration="927000" />
+      <workItem from="1597109947458" duration="7628000" />
+      <workItem from="1597133420373" duration="114000" />
+      <workItem from="1597133664565" duration="10648000" />
+      <workItem from="1597200356148" duration="3198000" />
+      <workItem from="1597215472980" duration="279000" />
+      <workItem from="1597215931182" duration="18091000" />
+      <workItem from="1597282302649" duration="763000" />
+      <workItem from="1597283788955" duration="233000" />
+      <workItem from="1597284744819" duration="212000" />
+      <workItem from="1597304650859" duration="33000" />
+      <workItem from="1597304734713" duration="45000" />
+      <workItem from="1597305887822" duration="422000" />
+      <workItem from="1597307368284" duration="12636000" />
+      <workItem from="1597369348064" duration="8807000" />
+      <workItem from="1597389449757" duration="17054000" />
+      <workItem from="1597456227049" duration="4356000" />
+      <workItem from="1597462509836" duration="17508000" />
+      <workItem from="1597486036254" duration="756000" />
+      <workItem from="1597543513682" duration="1671000" />
+      <workItem from="1597567423171" duration="6975000" />
+      <workItem from="1597629853112" duration="1340000" />
+      <workItem from="1597663278637" duration="607000" />
+      <workItem from="1597664771037" duration="671000" />
+      <workItem from="1597717355825" duration="52000" />
+      <workItem from="1597736508674" duration="16000" />
+      <workItem from="1597739066833" duration="5454000" />
+      <workItem from="1597823444096" duration="27000" />
+      <workItem from="1597907519708" duration="24000" />
+      <workItem from="1597976221663" duration="1181000" />
+      <workItem from="1597996841295" duration="1588000" />
+      <workItem from="1597999048611" duration="107000" />
+      <workItem from="1597999301650" duration="30000" />
+      <workItem from="1598061631544" duration="370000" />
+      <workItem from="1598496448944" duration="210000" />
+      <workItem from="1598496722242" duration="2281000" />
+      <workItem from="1598514113926" duration="12000" />
+      <workItem from="1598664791226" duration="2172000" />
+      <workItem from="1598923868487" duration="969000" />
+      <workItem from="1599014656952" duration="1109000" />
+      <workItem from="1599099106990" duration="733000" />
+      <workItem from="1599099955631" duration="126000" />
+      <workItem from="1599209841657" duration="631000" />
+      <workItem from="1599269691043" duration="1515000" />
+      <workItem from="1599297302705" duration="7495000" />
+      <workItem from="1599358669870" duration="2525000" />
+      <workItem from="1599378157266" duration="4844000" />
+      <workItem from="1599441801188" duration="1249000" />
+      <workItem from="1599994318108" duration="46000" />
+      <workItem from="1600500072665" duration="570000" />
+      <workItem from="1600500699105" duration="9000" />
+      <workItem from="1600505808194" duration="380000" />
+      <workItem from="1600741419937" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="106" key="#Deployment" timestamp="1596763858893">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="382" y="106" key="#Deployment/0.0.1536.920@0.0.1536.920" timestamp="1596763858893" />
+    <state x="328" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600500188844">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="328" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.920@0.0.1536.920" timestamp="1600500188844" />
+    <state x="584" y="87" key="#tsg123" timestamp="1596181519836">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="584" y="87" key="#tsg123/0.0.1536.920@0.0.1536.920" timestamp="1596181519836" />
+    <state x="608" y="264" key="EnvironmentVariablesDialog" timestamp="1600500137590">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="608" y="264" key="EnvironmentVariablesDialog/0.0.1536.920@0.0.1536.920" timestamp="1600500137590" />
+    <state x="661" y="214" key="FileChooserDialogImpl" timestamp="1600500705431">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="661" y="214" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1600500705431" />
+    <state width="1286" height="173" key="GridCell.Tab.0.bottom" timestamp="1600506172844">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1600506172844" />
+    <state width="1286" height="173" key="GridCell.Tab.0.center" timestamp="1600506172844">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1600506172844" />
+    <state width="1286" height="173" key="GridCell.Tab.0.left" timestamp="1600506172843">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1600506172843" />
+    <state width="1286" height="173" key="GridCell.Tab.0.right" timestamp="1600506172844">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1286" height="173" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1600506172844" />
+    <state width="1493" height="86" key="GridCell.Tab.1.bottom" timestamp="1597406622753">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="86" key="GridCell.Tab.1.bottom/0.0.1536.920@0.0.1536.920" timestamp="1597406622753" />
+    <state width="1493" height="86" key="GridCell.Tab.1.center" timestamp="1597406622753">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="86" key="GridCell.Tab.1.center/0.0.1536.920@0.0.1536.920" timestamp="1597406622753" />
+    <state width="1493" height="86" key="GridCell.Tab.1.left" timestamp="1597406622753">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="86" key="GridCell.Tab.1.left/0.0.1536.920@0.0.1536.920" timestamp="1597406622753" />
+    <state width="1493" height="86" key="GridCell.Tab.1.right" timestamp="1597406622753">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1493" height="86" key="GridCell.Tab.1.right/0.0.1536.920@0.0.1536.920" timestamp="1597406622753" />
+    <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1596073806293">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.920@0.0.1536.920" timestamp="1596073806293" />
+    <state x="408" y="62" key="SettingsEditor" timestamp="1600500411381">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="408" y="62" key="SettingsEditor/0.0.1536.920@0.0.1536.920" timestamp="1600500411381" />
+    <state x="735" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1600500698752">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="735" y="280" key="com.intellij.ide.util.TipDialog/0.0.1536.920@0.0.1536.920" timestamp="1600500698752" />
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1597053404675">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1597053404675" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tsg123$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1599015602585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tsg123$test.coverage" NAME="test Coverage Results" MODIFIED="1596353974085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/tsg123$import_data.coverage" NAME="import_data Coverage Results" MODIFIED="1597228295812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+  </component>
+</project>

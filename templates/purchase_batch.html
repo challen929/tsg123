@@ -1,0 +1,92 @@
+{# 继承模板 #}
+{% extends "base.html" %}
+
+{#把自己的内容，放到模板里面相应的位置#}
+
+{% block page-main %}
+    <h1 class="page-header">管理后台 <small>童书管理</small></h1>
+
+    <!--面板 开始-->
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h3 class="panel-title">进书批次</h3>
+        </div>
+        <div class="panel-body">
+            <!--搜索框 开始-->
+            <div class="row my-table-toolbar">
+                <div class="col-md-5">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                                  <button class="btn btn-default" type="button">Go!</button>
+                                </span>
+                    </div><!-- /input-group -->
+                </div><!-- /.col-lg-6 -->
+                <div class="col-md-2 pull-right">
+                    <a class="btn btn-success" href="/purchase_update/">刷新</a>
+                    <a class="btn btn-success pull-right" href="/purchase_add/">新增</a>
+                </div>
+            </div>
+            <!--搜索框 结束-->
+            <!--图书列表 开始-->
+            <table class="table table-striped table-bordered table-hover">
+                <thead>
+                <tr>
+                    <th>批次</th>
+                    <th>售价总额</th>
+                    <th>活动优惠</th>
+                    <th>用券优惠</th>
+                    <th>实付总额</th>
+                    <th>录入时间</th>
+                    <th>录入状态</th>
+                    <th>查看订单</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                {% for batch in batch_list %}
+                    <tr>
+                        <td>{{ batch.id }}</td>
+                        <td>{{ batch.total_price_sale }}</td>
+                        <td>{{ batch.prom_price }}</td>
+                        <td>{{ batch.coupon_price }}</td>
+                        <td>{{ batch.total_price_paid }}</td>
+                        <td>{{ batch.created_time|date:"Y-m-d H:i:s" }}</td>
+                        {% load myfilters %}
+                        <td> {{ batch.progress|div:batch.total_price_sale }}% </td>
+                        <td>
+                            <a class="btn" href="https://order.jd.com/center/search.action?keyword={{ batch.order_id }}" target="_blank">{{ batch.order_id }}</a>
+                        </td>
+                        <td>
+                            <a class="btn" href="/purchase_add/?batch_id={{ batch.id }}">合并订单</a>
+                            <a class="btn" href="/purchase_detail/?batch_id={{ batch.id }}">查看/录入明细</a>
+                        </td>
+                    </tr>
+                {% empty %}
+                    <tr>
+                        <td colspan="8" class="text-center">暂时没有数据</td>
+                    </tr>
+                {% endfor %}
+
+                </tbody>
+            </table>
+            <!--会员列表 结束-->
+
+            <!--分页 开始-->
+            <div class="text-center">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        {{ page_html|safe }}
+                    </ul>
+                </nav>
+            </div>
+            <!--分页 结束-->
+        </div>
+    </div>
+    <!--面板 结束-->
+{% endblock %}
+
+{% block purchase-class %}
+    active
+{% endblock %}
