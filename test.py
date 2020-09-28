@@ -187,8 +187,8 @@ import decimal
 # delete from books_historyprice where created_time > "2020-08-25";
 
 
-try:
-    a=1/0
-    print(1)
-except Exception as e:
-    print(e)
+# try:
+#     a=1/0
+#     print(1)
+# except Exception as e:
+#     print(e)
